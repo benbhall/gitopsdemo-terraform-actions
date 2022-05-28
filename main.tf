@@ -1,7 +1,7 @@
-locals {
-  location = "uksouth"
-  prefix   = "gitopsdemo"
-}
+  locals {
+    location = "uksouth"
+    prefix   = "gitopsdemo"
+  }
 
 terraform {
   backend "azurerm" {
